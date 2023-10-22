@@ -1,0 +1,88 @@
+header {
+    background-color: #192655;
+    height: 100px;
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+    padding: 10px;
+    color: white;
+}
+
+#col1, #col2, #col3{
+    float: left;
+}
+
+#foto1, #foto2, #foto3{
+    border: 1px solid black;
+    height: 250px;
+    width: 450px;
+    border-bottom: none;
+}
+
+#div1, #div2, #div3 {
+    border: 1px solid black;
+    height: 500px;
+    width: 450px;
+}
+
+.margen-top {
+    margin-top: 20px;
+}
+
+.margen-abj {
+    margin-bottom: 20px;
+}
+
+.margen-izq {
+    margin-left: 50px;
+}
+
+#todo{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.foto1{
+    background-image: url(https://mediarenditions.airbus.com/F6O9E9SzlMrQOG8qOIF1ow7yVkSuxYf15mrEUOVcf9U/resize?src=kpkp://airbus/38/253/253276-8473b806c1.jpg&w=608&h=608&t=fit);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.foto2{
+    background-image: url(https://mediarenditions.airbus.com/DkPZjv_T0KmtQM5fTw2xv7HiIlED5gVs7tWDp4_Hi_o/resize?src=kpkp://airbus/38/545/545125-e7vxw4yv00.jpg&w=608&h=608&t=fit);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.foto3{
+    background-image: url(https://mediarenditions.airbus.com/Qxwc-meiGRPogB_SXD_jrdk8NG0HK9R-AKv1TReBvVE/resize?src=kpkp://airbus/38/545/545134-susncqpvgr.jpg&w=608&h=608&t=fit);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+h2 {
+    font-size: 30px;
+    padding-left: 20px;
+}
+
+p {
+    padding: 20px;
+    font-size: 20px;
+}
+
+h3{
+    padding: 20px;
+    font-size: 20px;
+    color: grey
+}
+
+h1 {
+    padding-left: 20px;
+}
+
+@media screen and (max-width: 768px) {
+}
+  
+@media screen and (min-width: 769px) {
+}
